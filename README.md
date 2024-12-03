@@ -4,9 +4,9 @@
 
 We utilize the Slot Filling and Intent Classification method of Task-Based Dialogue Systems to find the laptops best fit on the user dialogue's needs.
 
-The dataset that we worked with is the Kaggle ["Brand Laptops Dataset"] (https://www.kaggle.com/datasets/bhavikjikadara/brand-laptops-dataset/data) by Bhavik Jikadara that contains a collection of 991 unique laptops sourced from the 'Smartprix' website. 
+The dataset that we worked with is the Kaggle ["Brand Laptops Dataset"](https://www.kaggle.com/datasets/bhavikjikadara/brand-laptops-dataset/data) by Bhavik Jikadara that contains a collection of 991 unique laptops sourced from the 'Smartprix' website. 
 
-We are also utilizing the GitHub Repo [Slot_Filling] (https://github.com/StarrySkyrs/Slot_Filling) developed by Mrinal Grover, Andrew Stich, Varadraj Poojary, and Sijia Han, specifically the "BERT for Name and Cuisine Prediction". However, for our case it is BERT for Laptop Prediction based on the users' requests. We've narrowed down the features from 22 to 5 which are "brand", "price" (converted from Indian Rupees to USD), "processor_tier", "ram_memory", and "display_size" by manually annotating the first 40 entries of the dataset.
+We are also utilizing the GitHub Repo [Slot_Filling](https://github.com/StarrySkyrs/Slot_Filling) developed by Mrinal Grover, Andrew Stich, Varadraj Poojary, and Sijia Han, specifically the "BERT for Name and Cuisine Prediction". However, for our case it is BERT for Laptop Prediction based on the users' requests. We've narrowed down the features from 22 to 5 which are "brand", "price" (converted from Indian Rupees to USD), "processor_tier", "ram_memory", and "display_size" by manually annotating the first 40 entries of the dataset.
 
 ## Contents
 
