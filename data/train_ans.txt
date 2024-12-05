@@ -17,7 +17,7 @@ find_laptop|brand=Dell|price=500
 find_laptop|processor_tier=high|ram_memory=16GB+
 find_laptop|display_size=15.6|price=700|processor_tier=high
 find_laptop|display_size=15|processor_tier=i7
-find_laptop|storage=256GB+
+find_laptop|ram_memory=256GB+
 find_laptop|brand=Apple|display_size=15.6
 find_laptop|brand=Dell|price=expensive|processor_tier=high
 find_laptop|brand=ASUS|ram_memory=16GB|display_size=15.6
