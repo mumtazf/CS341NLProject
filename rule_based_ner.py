@@ -23,7 +23,7 @@ class RuleBasedNER:
                      'brand': ['tecno', 'hp', 'acer', 'lenovo', 'apple', 'infinix', 'asus', 'dell', 'samsung', 'msi', 'wings', 'ultimus', 'primebook', 'iball', 'zebronics', 'chuwi','gigabyte', 'jio', 'honor', 'realme', 'avita', 'microsoft', 'fujitsu', 'lg', 'walker', 'axl'],
                      'ram_memory': ['8', '16', '32',  '4',  '2', '12', '36'],
                      'processor_tier': ['core i3', 'core i7', 'ryzen 5', 'core i5', 'ryzen 3', 'm1', 'core i9', 'ryzen 7', 'other', 'm3', 'm2', 'ryzen 9', 'celeron', 'core ultra 7', 'pentium', 'amd'],
-                     'budget': ['low', 'mid-range', 'high'],
+                     'budget': ['low', 'medium', 'high'],
                      'display_size': ['13', '14', '15']
               }
 

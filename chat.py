@@ -29,9 +29,9 @@ class Chatbot:
 
         self.prompts["brand"] = f"What brand of laptop would you like?\n[Some examples are: Acer, Dell, Apple, etc...]"
         self.prompts["ram_memory"] = f"What RAM size would you like?\n [For example, 8GB, 16GB, etc.]"
-        self.prompts["display_size"] = f"What display size of screen do you like?"
-        self.prompts["budget"] = f"What's your budget like?"
-        self.prompts["processor_tier"] = f"What kind of processor are you envisioning?"
+        self.prompts["display_size"] = f"What display size of screen do you like? [For example, 13 inch, 14 inch, 15.6 inch, etc.]"
+        self.prompts["budget"] = f"What's your budget like? [Choose from: low, medium, high]"
+        self.prompts["processor_tier"] = f"What kind of processor are you envisioning? [Examples are: amd, ryzen, core i9, core i7, m1, m2, etc.]"
 
 
     def get_prompt(self, description):
@@ -121,6 +121,8 @@ class Chatbot:
 class InteractionLoop(cmd.Cmd):
     """
     Loop that handles communication with the user. We use command prompt for now.
+    
+    NOTE: We learned how to have interactionLoop thanks to Heather's code activity in class.
     """
     prompt = '> '
 
