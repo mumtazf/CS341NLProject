@@ -1,0 +1,5 @@
+find_laptop|ram_memory=16GB|display_size=14
+find_laptop|display_size=13|price=cheap
+find_laptop|processor_tier=high
+find_laptop|use_case=gaming|price=1500
+find_laptop|storage=512GB+|
